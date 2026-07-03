@@ -50,6 +50,9 @@ print(result)   # True
 print(2 + 3)
 print(5 - 2)
 print(4 * 3)
+print(8 / 2)
+```
+
 
 ## 🎯 Learning Outcomes
 
@@ -62,6 +65,3 @@ After completing these topics, students will be able to:
 - Identify different Python data types.
 - Check the data type of a variable using `type()`.
 - Understand Boolean values (`True` and `False`).
-
-print(8 / 2)
-```
