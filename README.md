@@ -1,78 +1,67 @@
-# Python Character Set - First and Second Python Program
+# Python Crash Course
 
 ## 📌 Objective
-This program introduces the basics of Python by using the `print()` function and demonstrates different types of characters used in Python.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, and basic arithmetic operations.
+
+---
 
 ## 📖 Topics Covered
-- Printing text using `print()`
-- Letters (Uppercase & Lowercase)
-- Digits (0–9)
-- Special Symbols and basic arithmetic operators
 
-## 💻 Code Explanation
+- Python Character Set
+- `print()` Function
+- Letters, Digits, and Special Symbols
+- Arithmetic Operators (`+`, `-`, `*`, `/`)
+- Variables
+- Data Types (`str`, `int`, `float`, `bool`)
+- Boolean Expressions
+- `type()` Function
 
-### 1. Printing Text
-The `print()` function is used to display output on the screen.
+---
 
+## 💻 Key Examples
+
+### Print Output
 ```python
-print("Hello World!!")
+print("Hello World!")
 ```
 
-### 2. Letters (Alphabets)
-Python can print both uppercase and lowercase letters.
-
+### Variables
 ```python
-print("THIS IS PYTHON CRASH COURSE")
-print("this is python crash course")
+name = "Ali"
+age = 23
+price = 78.54
 ```
 
-### 3. Digits
-Digits from **0 to 9** can be displayed as text.
-
+### Data Types
 ```python
-print("10")
-print("7")
-print("68")
+print(type(name))
+print(type(age))
+print(type(price))
 ```
 
-### 4. Special Symbols (Operators)
-Python uses special symbols to perform mathematical operations.
+### Boolean Expression
+```python
+result = (2 + 3) == (3 + 2)
+print(result)   # True
+```
 
-| Operator | Description | Example |
-|----------|-------------|---------|
-| `+` | Addition | `2 + 3` |
-| `-` | Subtraction | `2 - 1` |
-| `*` | Multiplication | `4 * 9` |
-| `/` | Division | `4 / 2` |
-
-Example:
-
+### Arithmetic Operators
 ```python
 print(2 + 3)
-print(2 - 1)
-print(4 * 9)
-print(4 / 2)
+print(5 - 2)
+print(4 * 3)
+
+## 🎯 Learning Outcomes
+
+After completing these topics, students will be able to:
+
+- Display output using the `print()` function.
+- Understand Python character sets.
+- Use arithmetic operators for basic calculations.
+- Create and use variables.
+- Identify different Python data types.
+- Check the data type of a variable using `type()`.
+- Understand Boolean values (`True` and `False`).
+
+print(8 / 2)
 ```
-
-## ▶️ Expected Output
-
-```text
-Hello World!!
-THIS IS PYTHON CRASH COURSE
-this is python crash course
-10
-7
-68
-5
-1
-36
-2.0
-```
-
-## 🎯 Learning Outcome
-After completing this program, students will be able to:
-- Use the `print()` function.
-- Print text and numbers.
-- Understand uppercase and lowercase letters.
-- Identify digits in Python.
-- Perform basic arithmetic operations using special symbols (`+`, `-`, `*`, `/`).
