@@ -1,51 +1,40 @@
-# # Print Function 
-# """
-# PS C:\Users\Dell\Desktop\Python_lecture_2> & C:\Python314\python.exe c:/Users/Dell/Desktop/Python_lecture_2/Lect_5.py
-# PS C:\Users\Dell\Desktop\Python_lecture_2> & C:\Python314\python.exe c:/Users/Dell/Desktop/Python_lecture_2/Lect_5.py
+# Arithmetic Operators
 
-# """
-# print("Hi")               ctrl + /
+a = 30
+b = 50
 
-# Arithematic  Operator
-# Plus , minus, multiply, Divid, MOdulus
-# a = 30
-# b = 50 
+# Addition
+print("Addition:", a + b)
 
-# sum = a+b
-# diff = a-b  #30-50 
+# Subtraction
+print("Subtraction:", a - b)
 
-# print("This is sum between a and b :", sum)
-# print(a+b)
+# Multiplication
+print("Multiplication:", a * b)
 
-# print("The difference of b over a is: ",diff)
-# # print(a-b)
-# product = a*b
+# Division
+print("Division:", a / b)
 
-# print(a*b)             #astrisk
-# print("The Multiplication between a and b is:",product)
+# Modulus (Remainder)
+print("Modulus:", a % b)
+
+# Exponent (Power)
+print("Power:", a ** 2)
 
 
-# x = 4
-# y = 2
+# Comparison (Relational) Operators
 
-# # divid = x/y
-# # print("The division is:", divid)
-# # print(x/y)
-# # modulus = x % y   #reminder
-# # print("The modulus is :", modulus)
-# # print(x % y)
-
-# pow = x ** y          #x*x
-# print(x ** y)
-# print("The power is:",pow)
-
-
-# Comparison/ Relational Operators
-# Equal/ assigning 
 a = 2
 b = 4
 
-# print(a == b)   #equal      false
-# print(a != b)   #not equal     true
-# print(a > b)     #2>4
-print(a < b)      #2<4
+# Check if values are equal
+print(a == b)
+
+# Check if values are not equal
+print(a != b)
+
+# Check if a is greater than b
+print(a > b)
+
+# Check if a is less than b
+print(a < b)
