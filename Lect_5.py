@@ -1,3 +1,13 @@
+# Comments in python (This is single line comment)
+
+"""
+These are the Multiple line comments
+These are the Multiple line comments
+These are the Multiple line comments
+These are the Multiple line comments
+These are the Multiple line comments
+"""
+
 # Arithmetic Operators
 
 a = 30
