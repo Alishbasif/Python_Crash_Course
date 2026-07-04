@@ -1,11 +1,8 @@
 # Comments in python (This is single line comment)
 
 """
-These are the Multiple line comments
-These are the Multiple line comments
-These are the Multiple line comments
-These are the Multiple line comments
-These are the Multiple line comments
+This program demonstrates
+Arithmetic Operators in Python.
 """
 
 # Arithmetic Operators
