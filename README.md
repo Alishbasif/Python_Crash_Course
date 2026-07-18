@@ -1,11 +1,12 @@
 # Python Crash Course
 
 ## 📌 Objective
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, and whitespace characters.
+
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, and user input.
 
 ---
 
-## 📖 Topics Covered
+# 📖 Topics Covered
 
 - Python Character Set
 - `print()` Function
@@ -24,6 +25,15 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - `type()` Function
 - Single-line Comments (`#`)
 - Multi-line Comments (`''' '''` or `""" """`)
+- Strings
+- String Concatenation
+- String Length (`len()`)
+- String Indexing
+- String Slicing
+- Negative Slicing
+- String Methods (`upper()`, `lower()`)
+- User Input using `input()`
+- Input Type Conversion (`int()`, `float()`)
 
 ---
 
@@ -158,6 +168,88 @@ a = str(a)
 print(type(a))
 ```
 
+## Strings
+
+```python
+str1 = "Hello"
+str2 = "World"
+
+print(str1)
+print(str2)
+```
+
+## String Concatenation
+
+```python
+str1 = "Hello "
+str2 = "World"
+
+print(str1 + str2)
+```
+
+## String Length
+
+```python
+text = "Python"
+
+print(len(text))
+```
+
+## String Indexing
+
+```python
+text = "Python"
+
+print(text[0])
+print(text[-1])
+```
+
+## String Slicing
+
+```python
+text = "Python Programming"
+
+print(text[0:6])
+print(text[7:])
+print(text[:6])
+```
+
+## Negative Slicing
+
+```python
+text = "Apple"
+
+print(text[-5:])
+print(text[-3:])
+print(text[:-1])
+```
+
+## String Methods
+
+```python
+text = "Python"
+
+print(text.upper())
+print(text.lower())
+```
+
+## User Input
+
+```python
+name = input("Enter your name: ")
+
+print("Welcome", name)
+```
+
+## Input with Type Conversion
+
+```python
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("Sum =", num1 + num2)
+```
+
 ## Whitespace Characters
 
 ```python
@@ -195,4 +287,13 @@ After completing these topics, students will be able to:
 - Understand automatic type conversion.
 - Perform manual type casting.
 - Check the data type of a variable using the `type()` function.
+- Create and manipulate strings.
+- Concatenate multiple strings.
+- Find the length of a string using `len()`.
+- Access characters using indexing.
+- Extract text using slicing and negative slicing.
+- Apply basic string methods such as `upper()` and `lower()`.
+- Accept user input using the `input()` function.
+- Convert user input into `int` and `float`.
+- Solve basic programming problems using input and strings.
 - Write single-line and multi-line comments.
