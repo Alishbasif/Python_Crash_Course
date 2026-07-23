@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, and user input.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string functions, and user input.
 
 ---
 
@@ -32,6 +32,10 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - String Slicing
 - Negative Slicing
 - String Methods (`upper()`, `lower()`)
+- String Functions
+  - `endswith()`
+  - `capitalize()`
+  - `replace()`
 - User Input using `input()`
 - Input Type Conversion (`int()`, `float()`)
 
@@ -233,6 +237,37 @@ print(text.upper())
 print(text.lower())
 ```
 
+## String Functions
+
+### `endswith()`
+
+```python
+text = "I am coding"
+
+print(text.endswith("ing"))   # True
+print(text.endswith("er"))    # False
+```
+
+### `capitalize()`
+
+```python
+text = "python is easy"
+
+print(text.capitalize())
+```
+
+### `replace()`
+
+```python
+text = "I am coding"
+
+new_text = text.replace("coding", "programming")
+print(new_text)
+
+new_text = text.replace("ing", "er")
+print(new_text)
+```
+
 ## User Input
 
 ```python
@@ -292,7 +327,8 @@ After completing these topics, students will be able to:
 - Find the length of a string using `len()`.
 - Access characters using indexing.
 - Extract text using slicing and negative slicing.
-- Apply basic string methods such as `upper()` and `lower()`.
+- Apply string methods such as `upper()` and `lower()`.
+- Use common string functions like `endswith()`, `capitalize()`, and `replace()`.
 - Accept user input using the `input()` function.
 - Convert user input into `int` and `float`.
 - Solve basic programming problems using input and strings.
