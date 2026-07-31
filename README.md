@@ -2,12 +2,13 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string functions, and user input.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, and conditional statements.
 
 ---
 
 # 📖 Topics Covered
 
+## Basics
 - Python Character Set
 - `print()` Function
 - Letters, Digits, and Special Symbols
@@ -15,29 +16,49 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - Variables
 - Data Types (`str`, `int`, `float`, `bool`, `NoneType`)
 - `None` Value
+
+## Operators
 - Arithmetic Operators (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
 - Comparison (Relational) Operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
 - Assignment Operators (`=`, `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`)
 - Logical Operators (`and`, `or`, `not`)
 - Boolean Expressions
+
+## Type Conversion
 - Type Conversion (Automatic)
 - Type Casting (Manual)
 - `type()` Function
+
+## Comments
 - Single-line Comments (`#`)
 - Multi-line Comments (`''' '''` or `""" """`)
+
+## Strings
 - Strings
 - String Concatenation
 - String Length (`len()`)
 - String Indexing
 - String Slicing
 - Negative Slicing
-- String Methods (`upper()`, `lower()`)
-- String Functions
-  - `endswith()`
-  - `capitalize()`
-  - `replace()`
+- String Methods
+  - `upper()`
+  - `lower()`
+
+## String Functions
+- `find()`
+- `count()`
+- `endswith()`
+- `capitalize()`
+- `replace()`
+
+## User Input
 - User Input using `input()`
 - Input Type Conversion (`int()`, `float()`)
+
+## Conditional Statements
+- `if`
+- `if...else`
+- `if...elif...else`
 
 ---
 
@@ -175,11 +196,9 @@ print(type(a))
 ## Strings
 
 ```python
-str1 = "Hello"
-str2 = "World"
+text = "Python"
 
-print(str1)
-print(str2)
+print(text)
 ```
 
 ## String Concatenation
@@ -239,19 +258,35 @@ print(text.lower())
 
 ## String Functions
 
+### `find()`
+
+```python
+text = "I am learning Python"
+
+print(text.find("Python"))
+print(text.find("Java"))
+```
+
+### `count()`
+
+```python
+text = "Python is easy. Python is powerful."
+
+print(text.count("Python"))
+```
+
 ### `endswith()`
 
 ```python
-text = "I am coding"
+text = "notes.pdf"
 
-print(text.endswith("ing"))   # True
-print(text.endswith("er"))    # False
+print(text.endswith(".pdf"))
 ```
 
 ### `capitalize()`
 
 ```python
-text = "python is easy"
+text = "python programming"
 
 print(text.capitalize())
 ```
@@ -259,19 +294,15 @@ print(text.capitalize())
 ### `replace()`
 
 ```python
-text = "I am coding"
+text = "I am learning Python"
 
-new_text = text.replace("coding", "programming")
-print(new_text)
-
-new_text = text.replace("ing", "er")
-print(new_text)
+print(text.replace("Python", "Java"))
 ```
 
 ## User Input
 
 ```python
-name = input("Enter your name: ")
+name = input("Enter your Name: ")
 
 print("Welcome", name)
 ```
@@ -279,10 +310,47 @@ print("Welcome", name)
 ## Input with Type Conversion
 
 ```python
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
 
 print("Sum =", num1 + num2)
+```
+
+## Conditional Statements
+
+### `if`
+
+```python
+age = int(input("Enter your Age: "))
+
+if age >= 18:
+    print("Eligible for CNIC")
+```
+
+### `if...else`
+
+```python
+age = int(input("Enter your Age: "))
+
+if age >= 18:
+    print("Eligible for CNIC")
+else:
+    print("Not Eligible for CNIC")
+```
+
+### `if...elif...else`
+
+```python
+marks = int(input("Enter Your Marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+else:
+    print("Grade D")
 ```
 
 ## Whitespace Characters
@@ -295,7 +363,7 @@ print("Hello\nWorld")
 ## Comments
 
 ```python
-# This is a single-line comment
+# Single-line Comment
 
 """
 This is a
@@ -310,26 +378,18 @@ multi-line comment.
 After completing these topics, students will be able to:
 
 - Display output using the `print()` function.
-- Understand Python character sets.
-- Use letters, digits, special symbols, and whitespace characters.
 - Create and use variables.
-- Identify Python data types.
-- Use the `None` value.
+- Work with different Python data types.
 - Perform arithmetic operations.
-- Compare values using comparison operators.
-- Use assignment operators to update variable values.
-- Apply logical operators in Boolean expressions.
-- Understand automatic type conversion.
-- Perform manual type casting.
-- Check the data type of a variable using the `type()` function.
-- Create and manipulate strings.
-- Concatenate multiple strings.
-- Find the length of a string using `len()`.
-- Access characters using indexing.
-- Extract text using slicing and negative slicing.
-- Apply string methods such as `upper()` and `lower()`.
-- Use common string functions like `endswith()`, `capitalize()`, and `replace()`.
-- Accept user input using the `input()` function.
-- Convert user input into `int` and `float`.
-- Solve basic programming problems using input and strings.
+- Use comparison, assignment, and logical operators.
+- Understand Boolean expressions.
+- Perform type conversion and type casting.
+- Check data types using the `type()` function.
 - Write single-line and multi-line comments.
+- Create and manipulate strings.
+- Use string indexing and slicing.
+- Apply string methods (`upper()`, `lower()`).
+- Use string functions (`find()`, `count()`, `replace()`, `endswith()`, `capitalize()`).
+- Accept input from the user.
+- Convert user input into `int` and `float`.
+- Make decisions using `if`, `if...else`, and `if...elif...else`.
