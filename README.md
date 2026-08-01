@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, and conditional statements.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, and Python lists.
 
 ---
 
@@ -59,6 +59,22 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - `if`
 - `if...else`
 - `if...elif...else`
+
+## Lists (New)
+- What is a List?
+- Creating a List
+- Accessing List Elements
+- Updating List Elements
+- Finding List Length (`len()`)
+- List Slicing
+- Negative Indexing
+- List Methods
+  - `append()`
+  - `sort()`
+  - `reverse()`
+  - `insert()`
+  - `remove()`
+  - `pop()`
 
 ---
 
@@ -353,6 +369,73 @@ else:
     print("Grade D")
 ```
 
+## Lists
+
+### Creating a List
+
+```python
+marks = [95.8, "Ali", 17]
+```
+
+### Accessing Elements
+
+```python
+print(marks[0])
+print(marks[1])
+```
+
+### Updating Elements
+
+```python
+marks[1] = "Ahmed"
+```
+
+### List Length
+
+```python
+print(len(marks))
+```
+
+### List Slicing
+
+```python
+numbers = [24, 36, 48, 58, 19, 87]
+
+print(numbers[1:4])
+print(numbers[2:])
+print(numbers[:4])
+```
+
+### Negative Indexing
+
+```python
+print(numbers[-5:-2])
+```
+
+### List Methods
+
+```python
+numbers = [2, 1, 4]
+
+numbers.append(3)
+numbers.sort()
+numbers.sort(reverse=True)
+numbers.reverse()
+```
+
+```python
+fruits = ["apple", "banana", "grapes"]
+
+fruits.insert(1, "guava")
+```
+
+```python
+numbers = [2, 1, 4, 3, 1, 7, 1]
+
+numbers.remove(1)
+numbers.pop(2)
+```
+
 ## Whitespace Characters
 
 ```python
@@ -393,3 +476,6 @@ After completing these topics, students will be able to:
 - Accept input from the user.
 - Convert user input into `int` and `float`.
 - Make decisions using `if`, `if...else`, and `if...elif...else`.
+- Create and work with Python lists.
+- Access, update, and slice list elements.
+- Use built-in list methods such as `append()`, `sort()`, `reverse()`, `insert()`, `remove()`, and `pop()`.
