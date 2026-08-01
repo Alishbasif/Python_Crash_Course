@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, and Python lists.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples.
 
 ---
 
@@ -60,7 +60,7 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - `if...else`
 - `if...elif...else`
 
-## Lists (New)
+## Lists
 - What is a List?
 - Creating a List
 - Accessing List Elements
@@ -75,6 +75,19 @@ Learn the core fundamentals of Python, including printing output, variables, dat
   - `insert()`
   - `remove()`
   - `pop()`
+
+## Tuples (New)
+- What is a Tuple?
+- Creating a Tuple
+- Empty Tuple
+- Single-Element Tuple
+- Accessing Tuple Elements
+- Tuple Indexing
+- Tuple Slicing
+- Tuple Immutability
+- Tuple Methods
+  - `index()`
+  - `count()`
 
 ---
 
@@ -436,6 +449,71 @@ numbers.remove(1)
 numbers.pop(2)
 ```
 
+## Tuples
+
+### Creating a Tuple
+
+```python
+marks = (87, 45, 67, 29, 16, 90)
+```
+
+### Empty Tuple
+
+```python
+tup1 = ()
+print(type(tup1))
+```
+
+### Single-Element Tuple
+
+```python
+tup2 = (1,)
+print(type(tup2))
+```
+
+### Accessing Tuple Elements
+
+```python
+marks = (87, 45, 67, 29, 16, 90)
+
+print(marks[0])
+print(marks[-1])
+```
+
+### Tuple Slicing
+
+```python
+marks = (87, 45, 67, 29, 16, 90)
+
+print(marks[1:4])
+print(marks[:3])
+print(marks[-3:])
+```
+
+### Tuple Immutability
+
+```python
+marks = (87, 45, 67)
+
+# marks[1] = 50   # Error
+```
+
+### Tuple Method: `index()`
+
+```python
+numbers = (2, 1, 3, 1)
+
+print(numbers.index(3))
+```
+
+### Tuple Method: `count()`
+
+```python
+colors = ("red", "blue", "red", "green", "red")
+
+print(colors.count("red"))
+```
+
 ## Whitespace Characters
 
 ```python
@@ -479,3 +557,7 @@ After completing these topics, students will be able to:
 - Create and work with Python lists.
 - Access, update, and slice list elements.
 - Use built-in list methods such as `append()`, `sort()`, `reverse()`, `insert()`, `remove()`, and `pop()`.
+- Create and work with Python tuples.
+- Access tuple elements using indexing and slicing.
+- Understand that tuples are immutable.
+- Use tuple methods such as `index()` and `count()`.
