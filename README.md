@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets.
 
 ---
 
@@ -88,7 +88,6 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - Tuple Methods
   - `index()`
   - `count()`
-
 ---
 
 # 💻 Key Examples
