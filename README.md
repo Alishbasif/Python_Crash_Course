@@ -712,29 +712,28 @@ multi-line comment.
 After completing these topics, students will be able to:
 
 - After completing these topics, students will be able to:
-
-Display output using the `print()` function.
-Create and use `variables`.
-Work with different Python `data types`.
-Perform `arithmetic`, `comparison`, `assignment`, and `logical operations`.
-Understand `Boolean expressions`.
-Perform `type conversion` and `type casting`.
-Check data types using `type()`.
-Write single-line and multi-line `comments`.
-Create and manipulate `strings`.
-Use `string` indexing and slicing.
-Apply common `string methods` and `functions`.
-Accept and convert user `input`.
-Use `conditional statements` for decision-making.
-Create, access, update, and slice Python lists.
-Use common `list` methods.
-Create and work with Python `tuples`.
-Understand tuple immutability.
-Use tuple methods such as `index()` and `count()`.
-Create and work with Python dictionaries.
-Use key-value pairs and the `update()` method.
-Create `sets` and understand unique values.
-Use `while` loops for repetition and iteration.
-Print numbers and tables using `while` loops.
-Search and process `list/tuple` elements using loops.
-Identify and avoid  `infinite loops`.
+- Display output using the `print()` function.
+- Create and use `variables`.
+- Work with different Python `data types`.
+- Perform `arithmetic`, `comparison`, `assignment`, and `logical operations`.
+- Understand `Boolean expressions`.
+- Perform `type conversion` and `type casting`.
+- Check data types using `type()`.
+- Write single-line and multi-line `comments`.
+- Create and manipulate `strings`.
+- Use `string` indexing and slicing.
+- Apply common `string methods` and `functions`.
+- Accept and convert user `input`.
+- Use `conditional statements` for decision-making.
+- Create, access, update, and slice Python lists.
+- Use common `list` methods.
+- Create and work with Python `tuples`.
+- Understand tuple immutability.
+- Use tuple methods such as `index()` and `count()`.
+- Create and work with Python dictionaries.
+- Use key-value pairs and the `update()` method.
+- Create `sets` and understand unique values.
+- Use `while` loops for repetition and iteration.
+- Print numbers and tables using `while` loops.
+- Search and process `list/tuple` elements using loops.
+- Identify and avoid  `infinite loops`.
