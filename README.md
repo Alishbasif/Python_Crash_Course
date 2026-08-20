@@ -88,6 +88,32 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - Tuple Methods
   - `index()`
   - `count()`
+
+ ## Dictionaries
+- What is a Dictionary?
+- Key-Value Pairs
+- Creating and Accessing Dictionaries
+- Updating Dictionary Values
+- Adding New Key-Value Pairs
+- `update()` Method
+
+## Sets
+- What is a Set?
+- Creating Sets
+- Unique Values
+- Duplicate Values
+- Sets with Different Data Types
+
+## While Loops
+- What is a `while` Loop?
+- Initialization
+- Condition
+- Iteration
+- Printing Numbers using `while`
+- Reverse Counting
+- Infinite Loops
+- Using `while` with Lists/Tuples
+- Searching Elements using `while`
 ---
 
 # 💻 Key Examples
@@ -513,6 +539,154 @@ colors = ("red", "blue", "red", "green", "red")
 print(colors.count("red"))
 ```
 
+# Dictionaries
+
+## Creating a Dictionary
+
+```python
+dictionary = {
+    "cat": "a small animal",
+    "table": [
+        "a piece of furniture",
+        "lists of facts and figures"
+    ]
+}
+
+print(dictionary)
+```
+
+## Dictionary with User Input
+
+```python
+marks = {}
+
+physics = int(input("Enter your Physics marks: "))
+marks.update({"Physics": physics})
+
+chemistry = int(input("Enter your Chemistry marks: "))
+marks.update({"Chemistry": chemistry})
+
+maths = int(input("Enter your Maths marks: "))
+marks.update({"Maths": maths})
+
+print(marks)
+```
+
+# Sets
+
+## Creating a Set
+
+```python
+set_1 = {9, 9.0, 1, 2}
+
+print(set_1)
+```
+
+## Handling Different Values
+
+```python
+set_2 = {9, "9.0"}
+
+print(set_2)
+```
+
+```python
+values = {
+    "int": 9,
+    "float": 9.0
+}
+
+print(values)
+```
+
+# While Loops
+
+## Basic While Loop
+
+```python
+count = 1
+
+while count <= 5:
+    print("Hello World")
+    count += 1
+
+print(count)
+```
+
+## Printing Numbers from 1 to 100
+
+```python
+i = 1
+
+while i <= 100:
+    print(i)
+    i += 1
+
+print("Last Value:", i)
+print("Loop Ended")
+```
+
+## Printing Reverse Numbers
+
+```python
+i = 5
+
+while i >= 1:
+    print(i)
+    i -= 1
+
+print("Last Value:", i)
+print("Loop Ended")
+```
+
+## Multiplication Table
+
+```python
+num = int(input("Enter your number for printing table: "))
+
+i = 1
+
+while i <= 10:
+    print(num, "X", i, "=", num * i)
+    i += 1
+```
+
+## Printing List Elements Using While Loop
+
+```python
+numbers = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+idx = 0
+
+while idx < len(numbers):
+    print(numbers[idx])
+    idx += 1
+```
+
+## Searching an Element Using While Loop
+
+```python
+nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x = 81
+idx = 0
+
+while idx < len(nums):
+    if nums[idx] == x:
+        print("Found at index:", idx)
+
+    idx += 1
+```
+
+## Infinite Loop
+
+```python
+# WARNING: This creates an infinite loop.
+
+# while True:
+#     print("Hello World")
+```
+
 ## Whitespace Characters
 
 ```python
@@ -537,26 +711,30 @@ multi-line comment.
 
 After completing these topics, students will be able to:
 
-- Display output using the `print()` function.
-- Create and use variables.
-- Work with different Python data types.
-- Perform arithmetic operations.
-- Use comparison, assignment, and logical operators.
-- Understand Boolean expressions.
-- Perform type conversion and type casting.
-- Check data types using the `type()` function.
-- Write single-line and multi-line comments.
-- Create and manipulate strings.
-- Use string indexing and slicing.
-- Apply string methods (`upper()`, `lower()`).
-- Use string functions (`find()`, `count()`, `replace()`, `endswith()`, `capitalize()`).
-- Accept input from the user.
-- Convert user input into `int` and `float`.
-- Make decisions using `if`, `if...else`, and `if...elif...else`.
-- Create and work with Python lists.
-- Access, update, and slice list elements.
-- Use built-in list methods such as `append()`, `sort()`, `reverse()`, `insert()`, `remove()`, and `pop()`.
-- Create and work with Python tuples.
-- Access tuple elements using indexing and slicing.
-- Understand that tuples are immutable.
-- Use tuple methods such as `index()` and `count()`.
+- After completing these topics, students will be able to:
+
+Display output using the `print()` function.
+Create and use `variables`.
+Work with different Python `data types`.
+Perform `arithmetic`, `comparison`, `assignment`, and `logical operations`.
+Understand `Boolean expressions`.
+Perform `type conversion` and `type casting`.
+Check data types using `type()`.
+Write single-line and multi-line `comments`.
+Create and manipulate `strings`.
+Use `string` indexing and slicing.
+Apply common `string methods` and `functions`.
+Accept and convert user `input`.
+Use `conditional statements` for decision-making.
+Create, access, update, and slice Python lists.
+Use common `list` methods.
+Create and work with Python `tuples`.
+Understand tuple immutability.
+Use tuple methods such as `index()` and `count()`.
+Create and work with Python dictionaries.
+Use key-value pairs and the `update()` method.
+Create `sets` and understand unique values.
+Use `while` loops for repetition and iteration.
+Print numbers and tables using `while` loops.
+Search and process `list/tuple` elements using loops.
+Identify and avoid  `infinite loops`.
