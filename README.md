@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets, while loops, and loop control statements such as break and continue.
 
 ---
 
@@ -114,6 +114,15 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - Infinite Loops
 - Using `while` with Lists/Tuples
 - Searching Elements using `while`
+
+## Break and Continue
+- `break` Statement
+- `continue` Statement
+- Stopping a Loop using `break`
+- Skipping an Iteration using `continue`
+- Using `break` for Searching
+- Using `continue` with `while` Loops
+- Avoiding Infinite Loops with `continue`
 ---
 
 # 💻 Key Examples
@@ -687,6 +696,78 @@ while idx < len(nums):
 #     print("Hello World")
 ```
 
+## Break Statement
+
+The `break` statement stops the loop immediately when a specific condition is met.
+
+```python
+i = 1
+
+while i <= 5:
+    print(i)
+
+    if i == 5:
+        break
+
+    i += 1
+```
+## Continue Statement
+
+The `continue` statement skips the current iteration and moves to the next iteration.
+
+```python
+i = 0
+
+
+while i <= 5:
+    if i == 3:
+        i += 1
+        continue
+
+
+    print(i)
+    i += 1
+```
+## Searching an Element Using Break
+
+```python
+nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+
+x = 81
+idx = 0
+
+
+while idx < len(nums):
+    if nums[idx] == x:
+        print("Found at index:", idx)
+        break
+
+
+    print("Finding....")
+    idx += 1
+
+
+print("Loop End")
+```
+---
+## Using Continue to Skip Even Numbers
+
+```python
+i = 1
+
+
+while i <= 10:
+    if i % 2 == 0:
+        i += 1
+        continue
+
+
+    print(i)
+    i += 1
+```
+
+---
 ## Whitespace Characters
 
 ```python
@@ -737,3 +818,7 @@ After completing these topics, students will be able to:
 - Print numbers and tables using `while` loops.
 - Search and process `list/tuple` elements using loops.
 - Identify and avoid  `infinite loops`.
+-Use the break statement to stop a loop when a condition is met.
+- Use the continue statement to skip the current iteration.
+- Use break while searching for an element in a list or tuple.
+- Use continue with while loops without creating an infinite loop.
