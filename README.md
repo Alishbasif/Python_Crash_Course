@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets, while loops, and loop control statements such as break and continue.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets, while loops, and loop control statements such as break and continue and for loops.
 
 ---
 
@@ -768,6 +768,112 @@ while i <= 10:
 ```
 
 ---
+
+## For Loops
+
+## Basic For Loop
+
+A `for` loop is used to iterate through the elements of a sequence one by one.
+
+```python
+numbers = [1, 2, 4, 6, 7, 8, 10]
+
+for val in numbers:
+    print(val)
+
+```
+## For Loop with Tuple
+
+```python
+tup = ("potato", "tomato", "onion", "cucumber")
+
+for val in tup:
+    print(val)
+```
+
+## For Loop with String
+
+A string can also be iterated character by character using a `for` loop.
+
+```python
+text = "I am coder."
+
+for ch in text:
+    print(ch)
+```
+
+## For Loop with Else
+
+The `else` block executes when the `for` loop completes normally.
+
+```python
+text = "I am coder."
+
+for ch in text:
+    print(ch)
+else:
+    print("Loop Ended Here!!!")
+
+print("New Line of code")
+```
+
+## For Loop with Break
+
+The `break` statement stops the loop immediately when a specific condition is met.
+
+```python
+text = "I am coder."
+
+for ch in text:
+    if ch == 'o':
+        print("'o' found")
+        break
+
+    print(ch)
+else:
+    print("Loop Ended Here!!!")
+```
+
+## Printing List Elements Using For Loop
+
+```python
+numbers = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+numbers.append(120)
+
+for el in numbers:
+    print(el)
+```
+
+## Searching an Element Using For Loop
+```python
+
+numbers = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+x = 25
+idx = 0
+
+for el in numbers:
+    if el == x:
+        print("Number found at index:", idx)
+
+    idx += 1
+
+    print(el)
+```
+
+## For Loop Assignment
+
+Take a word as input from the user and use a `for` loop to print each character of the word on a new line.
+
+```python
+word = input("Enter a word: ")
+
+for ch in word:
+    print(ch)
+```
+---
+
 ## Whitespace Characters
 
 ```python
@@ -817,8 +923,13 @@ After completing these topics, students will be able to:
 - Use `while` loops for repetition and iteration.
 - Print numbers and tables using `while` loops.
 - Search and process `list/tuple` elements using loops.
-- Identify and avoid  `infinite loops`.
+- Identify and avoid `infinite loops`.
 -Use the break statement to stop a loop when a condition is met.
 - Use the continue statement to skip the current iteration.
+- Use `for` loops to iterate through lists, tuples, and strings.
+- Understand how `for` loops work with `else`.
+- Use `break` with a `for` loop.
+- Access and process elements one by one.
+- Find and work with specific elements using a `for` loop.
 - Use break while searching for an element in a list or tuple.
 - Use continue with while loops without creating an infinite loop.
