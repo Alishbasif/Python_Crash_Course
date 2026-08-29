@@ -123,6 +123,20 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 - Using `break` for Searching
 - Using `continue` with `while` Loops
 - Avoiding Infinite Loops with `continue`
+
+## Range Function in Python
+
+The `range()` function generates a sequence of numbers and is commonly used with `for` loops.
+
+### Syntax
+
+```python
+range(start, stop, step)
+```
+
+1. `start` → Starting value  
+2. `stop` → Ending limit (not included)  
+3. `step` → Increment/decrement value  
 ---
 
 # 💻 Key Examples
@@ -872,21 +886,6 @@ word = input("Enter a word: ")
 for ch in word:
     print(ch)
 ```
-## Range Function in Python
-
-The `range()` function generates a sequence of numbers and is commonly used with `for` loops.
-
-### Syntax
-
-```python
-range(start, stop, step)
-```
-
-1. `start` → Starting value  
-2. `stop` → Ending limit (not included)  
-3. `step` → Increment/decrement value
-
-## Examples
 ### Basic Range
 
 ```python
