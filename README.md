@@ -2,7 +2,7 @@
 
 ## 📌 Objective
 
-Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets, while loops, and loop control statements such as break and continue and for loops.
+Learn the core fundamentals of Python, including printing output, variables, data types, Boolean values, arithmetic operations, comparison operators, assignment operators, logical operators, type conversion, type casting, comments, whitespace characters, strings, string methods, string functions, user input, conditional statements, Python lists, and Python tuples, python dictionaries and Sets, while loops, and loop control statements such as break and continue and for loops with Range function.
 
 ---
 
@@ -872,6 +872,67 @@ word = input("Enter a word: ")
 for ch in word:
     print(ch)
 ```
+## Range Function in Python
+
+The `range()` function generates a sequence of numbers and is commonly used with `for` loops.
+
+### Syntax
+
+```python
+range(start, stop, step)
+```
+
+1. `start` → Starting value  
+2. `stop` → Ending limit (not included)  
+3. `step` → Increment/decrement value
+
+## Examples
+### Basic Range
+
+```python
+for el in range(5):
+    print(el)
+
+# Output: 0 1 2 3 4
+```
+### Start & Stop
+
+```python
+for el in range(1, 6):
+    print(el)
+
+# Output: 1 2 3 4 5
+```
+
+### Odd Numbers
+```python
+for el in range(1, 11, 2):
+    print(el)
+
+# Output: 1 3 5 7 9
+```
+
+### Even Numbers
+```python
+for el in range(0, 11, 2):
+    print(el)
+
+# Output: 0 2 4 6 8 10
+```
+### Reverse
+```python
+for el in range(5, 0, -1):
+    print(el)
+
+# Output: 5 4 3 2 1
+```
+### Important
+
+The stop value is always excluded.
+```python
+range(1, 6)
+# 1, 2, 3, 4, 5
+```
 ---
 
 ## Whitespace Characters
@@ -931,5 +992,7 @@ After completing these topics, students will be able to:
 - Use `break` with a `for` loop.
 - Access and process elements one by one.
 - Find and work with specific elements using a `for` loop.
+- Understand the `range()` function.
+- Use `range()` with for loops.
 - Use break while searching for an element in a list or tuple.
 - Use continue with while loops without creating an infinite loop.
