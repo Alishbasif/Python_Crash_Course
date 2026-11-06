@@ -127,7 +127,6 @@ Learn the core fundamentals of Python, including printing output, variables, dat
 ## Range Function in Python
 
 The `range()` function generates a sequence of numbers and is commonly used with `for` loops.
-
 ### Syntax
 
 ```python
@@ -136,7 +135,17 @@ range(start, stop, step)
 
 1. `start` → Starting value  
 2. `stop` → Ending limit (not included)  
-3. `step` → Increment/decrement value  
+3. `step` → Increment/decrement value
+
+
+# Recursion in Python
+- Introduction to Recursion
+- What is a Recursive Function?
+- How Recursion Works
+- Base Case in Recursion
+- Recursive Call
+- Factorial using Recursion
+- Understanding Function Execution Flow
 ---
 
 # 💻 Key Examples
@@ -934,6 +943,22 @@ range(1, 6)
 ```
 ---
 
+## Recursion in Python
+
+**Example:**
+```python
+def show(n):
+    if n == 0:
+        return
+
+    print(n)
+    show(n - 1)
+
+show(5)
+```
+
+---
+
 ## Whitespace Characters
 
 ```python
@@ -991,6 +1016,7 @@ After completing these topics, students will be able to:
 - Use `break` with a `for` loop.
 - Access and process elements one by one.
 - Find and work with specific elements using a `for` loop.
+- Recursive function
 - Understand the `range()` function.
 - Use `range()` with for loops.
 - Use break while searching for an element in a list or tuple.
